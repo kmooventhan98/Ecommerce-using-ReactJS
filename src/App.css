@@ -1,4 +1,22 @@
 body{
     font-family: 'Open Sans Condensed';
     padding: 20px 60px;
+
 }
+body::-webkit-scrollbar {
+    width: 6px;           
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: gray;        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: black;   
+   
+  }
+
+  a {
+    text-decoration: none;
+    color: gray;  
+  }
